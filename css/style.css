@@ -1,0 +1,33 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Tinos", serif;
+  margin: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
